@@ -1,12 +1,5 @@
 const magician = "Albus Percival Wulfric Brian Dumbledore";
-// console.log();
-// firstName = magician.substring(magician.indexOf(""), " ");
-// const [firstName, middleName, lastName] = magician.split(" ");
-// console.log(magician.split(" "));
 
-// middleName = magician.substring(
-//     magician.indexOf(" "),
-//   );
 firstName = magician.substring("", magician.indexOf(" "));
 
 middleName = magician.substring(
