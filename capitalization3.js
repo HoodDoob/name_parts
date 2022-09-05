@@ -1,11 +1,17 @@
-const initialName = "peTDASGSDGeasdasfar";
+const initialName = "Abd ulha mid";
 
 firstName = initialName.substring(0, 2);
-capitalName = initialName[2].toUpperCase();
+firstArray = initialName.split("");
+
+console.log(firstArray[3]);
+console.log();
+capitalName = initialName[2];
 restName = initialName.substring(3);
 // console.log(capitalName);
 // funnyName2 = funnyName1[2].toUpperCase();
-console.log(firstName.toLowerCase() + capitalName + restName.toLowerCase());
+console.log(
+  firstName.toLowerCase() + capitalName.toUpperCase() + restName.toLowerCase()
+);
 
 // console.log();
 // middleName = magician.substring(
